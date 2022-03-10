@@ -14,6 +14,6 @@ loci <- c("III:999129-999250", "II:999129-999250", "I:1208020-1208021", "I:12080
 bedPath <- "data/divergent_regions_strain.bed"
 
 # example run
-run <- checkDiv(strains = strains, loci = loci, bedPath = bedPath)
+run <- checkDivergent(strains = strains, loci = loci, bedPath = bedPath)
 ```
 
