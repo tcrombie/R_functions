@@ -55,4 +55,4 @@ checkDivergent <- function(strains, loci, bedPath) {
 # bedPath <- "data/divergent_regions_strain.bed"
 
 # example run
-#run <- checkDiv(strains = strains, loci = loci, bedPath = bedPath)
+#run <- checkDivergent(strains = strains, loci = loci, bedPath = bedPath)
