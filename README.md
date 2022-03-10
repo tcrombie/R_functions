@@ -3,6 +3,7 @@
 
 ## checkDivergent Function
 *An R function for checking whether loci are divergent in a set of strains.*
+*[script](https://github.com/tcrombie/R_functions/blob/main/scripts/checkDivergent.R)*
 
 ### Notes
 This function uses `GenomicRange` and `IRanges` packages to look for intersections between user provided loci and the Andersen Lab `divegent_regions_strain.bed` file. Users can also specify which strains they would like to search within. Loci are passed in the form of a range `III:999124-999168`.
