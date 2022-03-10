@@ -13,7 +13,12 @@ strains <- c("JU310", "MY2693")
 loci <- c("III:999129-999250", "II:999129-999250", "I:1208020-1208021", "I:1208024-1208025")
 bedPath <- "data/divergent_regions_strain.bed"
 
-# example run
-run <- checkDivergent(strains = strains, loci = loci, bedPath = bedPath)
+# example usage
+checkDivergent(strains = strains, loci = loci, bedPath = bedPath)
+   chrom   start     end             locus strain divergent
+1:     I 1208020 1208021 I:1208020-1208021  JU310      TRUE
+2:     I 1208024 1208025 I:1208024-1208025  JU310      TRUE
+3:     I 1208020 1208021 I:1208020-1208021 MY2693      TRUE
+4:     I 1208024 1208025 I:1208024-1208025 MY2693      TRUE
 ```
 
